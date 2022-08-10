@@ -29,7 +29,7 @@ nav ul li {
 
 nav ul{
     margin: 0px auto;
-    width: 700px;
+    max-width: 700px;
 }
 
 .clearfix:after {
@@ -42,11 +42,13 @@ main p{
     margin: 20px auto;
     margin: 0px auto;
     color: rgb(125, 125, 125);
-    border-bottom: 2px solid gray 
+    border-bottom: 2px solid gray
+    
 }
+
 main p{
     font-size: 45px;
-    width: 630px;
+    max-width: 630px;
 }
 
 main{
@@ -62,8 +64,15 @@ main{
 
 footer{
     background: rgba(0,0,0,0.8);
+    height: 200px;
 }
 
 main span{
     font-size: 20px;
 }
+
+footer a{
+    color: white;
+}
+
+
